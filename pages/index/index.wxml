@@ -1,0 +1,16 @@
+<view class="container">
+   <!-- <map id='ofoMap'
+        latitude="{{latitude}}"
+        longitude="{{longitud}}"
+        scale="{{scale}}"
+        controls="{{controls}}"
+        bindcontroltap="bindcontroltap"
+        polyline="{{polyline}}"
+        markers="{{markers}}"
+        bindmarkertap='bindmarkertap'
+        bindregionchange="bindregionchange"
+        show-location
+        style='width:100%;height:100%'>
+  </map>  -->
+      <map id="ofoMap" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="bindcontroltap" markers="{{markers}}" bindmarkertap="bindmarkertap" polyline="{{polyline}}" bindregionchange="bindregionchange" show-location style="width: 100%; height: 100%;"></map>   
+</view>

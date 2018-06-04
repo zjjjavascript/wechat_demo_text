@@ -1,0 +1,15 @@
+<view class="container">
+  <view class='user-info'>
+    <block wx:if="{{userInfo.avatarUrl != ''}}">
+      <image src='{{userInfo.avatarUrl}}'></image>
+    </block>
+    <text>{{userInfo.nickName}}</text>
+  </view>
+  <block wx:if="{{userInfo.avatarUrl != ''}}">
+    <view class='my-wallet tapbar' bindtap='movetoWallet'>
+      <text>我的钱包</text>
+      <text></text>
+    </view>
+  </block>
+  <button type='{{bType}}' bindtap='bindAction' class="btn-login" hover-class="gray" open-type='getUserInfo'>{{actionText}}</button>
+</view>

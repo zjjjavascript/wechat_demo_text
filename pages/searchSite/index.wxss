@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+.section{
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+.section image {
+  position: absolute;
+  left: 10rpx;
+  top:10rpx;
+  width: 45rpx;
+  height:45rpx;
+}
+.section input{
+  width:90%;
+  margin:5px auto;
+  border:1px solid #c3c3c3;
+  height:60rpx;
+  border-radius: 3px;
+  padding:0 5rpx 0 60rpx;
+}
+.text_box{
+  margin: 10px 25px;
+  border-bottom:1px solid #c3c3c3;
+  padding-bottom:10px
+}

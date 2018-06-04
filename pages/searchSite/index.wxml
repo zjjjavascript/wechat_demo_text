@@ -1,0 +1,10 @@
+<view class="container">
+  <view>请输入目的地</view>
+  <view class="section">
+    <image src="{{url}}"/>
+    <input bindinput="bindInput" placeholder="搜索" focus="true" />
+  </view>
+  <view bindtouchstart="bindSearch" data-keywords="{{item}}" class="text_box" wx:for="{{tips}}" wx:key="{{item}}">
+      <text>{{item.name}}</text>
+  </view>
+</view>
